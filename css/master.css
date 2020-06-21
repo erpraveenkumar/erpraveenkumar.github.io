@@ -65,9 +65,95 @@ body {
     margin-top: 0;
     margin-bottom: 3em;
     
+   } 
 }
+@media only screen and (min-width: 700px){
+
+p {
+    font-size: 1.125rem;
+    font-size: 18px;
+    line-height: 1.5555555556;
+    margin-bottom: 24px;
+    margin-bottom: 1.5rem;
 
 }
+}
+@media only screen and (max-width: 700px){
+
+p {
+    font-size: 1.125rem;
+    font-size: 18px;
+    line-height: 1.5555555556;
+    margin-bottom: 24px;
+    margin-bottom: 1.5rem;
+
+}
+}
+
+
+
+@media only screen and (max-width: 700px){
+
+.content>p{
+  margin-left: auto;
+  /*padding-right: 5em;
+  padding-left: 5em;*/
+  /*margin-bottom: 1px;*/
+  text-align: left;
+}
+.content p>a{
+    border-bottom: 1px dotted #a2a2a2;
+    color: black;
+
+}
+.content p>a:hover{
+  color: #555;
+}
+}
+@media only screen and (min-width: 800px){
+
+.content>p{
+  margin-left: auto;
+  padding-right: 5em;
+  padding-left: 5em;
+  /*margin-bottom: 1px;*/
+  text-align: left;
+}
+.content p>a{
+    border-bottom: 1px dotted #a2a2a2;
+    color: black;
+
+}
+.content p>a:hover{
+  color: #555;
+}
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
   a {
     color: #33CAFF; /* set the text color to blue here 
@@ -159,14 +245,7 @@ body {
     margin: 0 auto;
     text-align: left;
   }
-  p {
-    font-size: 1.125rem;
-    font-size: 18px;
-    line-height: 1.5555555556;
-    margin-bottom: 24px;
-    margin-bottom: 1.5rem;
-
-}
+  
 /*  
 .about{
 
@@ -349,13 +428,13 @@ body {
   color: white;
 }
 
-.content>p{
+/*.content>p{
   margin-left: auto;
   padding-right: 5em;
   padding-left: 5em;
   /*margin-bottom: 1px;*/
-  text-align: left;
-}
+  /*text-align: left;*/
+/*}
 .content p>a{
     border-bottom: 1px dotted #a2a2a2;
     color: black;
@@ -363,7 +442,12 @@ body {
 }
 .content p>a:hover{
   color: #555;
-}
+}*/
+
+
+
+
+
 
 
 
