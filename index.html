@@ -25,7 +25,7 @@
 </head>
 
 
-<body>
+<body onmouseover="gfg_Run()">
   <!-- add the banner image here -->
   <!-- <header class="masthead">
     <img class="animated fadeInDown" src="images/My_image.jpg" width="40%" title="My Images" usemap="#images" alt="banner">
@@ -69,7 +69,7 @@
   <!-- resume.html -->
 <!--   <p><strong><a href="Resume_Praveen.pdf" target="_blank">My Resume</a> | <a href="https://github.com/dadayadav" target="_blank">My GitHub</a></strong></p> -->
 
-<p><a href="Resume_Praveen.pdf"  target="_blank"><img border="0" src="images/cv.png" width="100" height="100" title="Resume"></a>  |  <a href="https://github.com/dadayadav"  target="_blank"><img border="0" src="images/Octocat.jpg" width="100" height="100" title="GitHub"></a></p>
+<p><a href="Resume_Praveen.html"  target="_blank"><img border="0" src="images/cv.png" width="100" height="100" title="Resume"></a>  |  <a href="https://github.com/dadayadav"  target="_blank"><img border="0" src="images/Octocat.jpg" width="100" height="100" title="GitHub"></a></p>
 
 <br>
 
@@ -231,6 +231,12 @@ voltage 11.1V, 2.4Ghz 6CH Transmitter and Receiver (approx. 2Km range in line of
   
 
 <script>
+  function gfg_Run() { 
+                document.addEventListener('contextmenu',  
+                        event => event.preventDefault()); 
+                el_down.innerHTML = "Right click disabled"; 
+            } 
+  
 var coll = document.getElementsByClassName("collapsible");
 var i;
 
